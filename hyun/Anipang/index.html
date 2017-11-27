@@ -12,19 +12,8 @@
   				integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   				crossorigin="anonymous"></script>
 			<div id="wrap">
-				<div id="header">
-					<h1 id="title"></h1>
-					<ul>
-						<li></li>
-						<li>score</li>
-						<li>time</li>
-						<li>Lv1PANG</li>
-						<li id="score"></li>
-						<li id="second"></li>
-					</ul>
-				</div>
-				<div id="content">
-					<div id="pang">
+				<h1 id="title">AniPANG</h1>
+					<div id="pang" onclick="pangClick(event)">
 						<div>
 							<span id="n00"></span><span id="n01"></span><span id="n02"></span><span id="n03"></span><span id="n04"></span><span id="n05"></span><span id="n06"></span>
 						</div>
@@ -46,12 +35,8 @@
 						<div>
 							<span id="n60"></span><span id="n61"></span><span id="n62"></span><span id="n63"></span><span id="n64"></span><span id="n65"></span><span id="n66"></span>
 						</div>														
-					</div>					
-				</div>
-				<div id="footer">
-					<button type="button" id="startbtn" onclick="startBtn()">START</button>
-					<button type="button" id="resetbtn" onclick="resetBtn()">RESET</button>
-				</div>
+					</div>
+				<div id="footer"><button type="button" id="btn" onclick="Start()">Start</button></div>
 			</div>  				
 			<script src="anipang.js" charset="UTF-8"></script>
 		</body>
